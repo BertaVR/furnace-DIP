@@ -55,7 +55,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>edu.pingpong.Furnace</mainClass>
+                <mainClass>edu.pingpong.main.Furnace</mainClass>
               </manifest>
               <manifestEntries>
                 <url>https://github.com/BertaVR/furnace-DIP</url>
