@@ -3,7 +3,7 @@ package edu.pingpong;
 public class RoomTemperature {
 
 
-    private double temperature = 0;
+    private double temperature = 0d;
 
     public RoomTemperature(double temperature) {
         this.temperature = temperature;
@@ -16,4 +16,10 @@ public class RoomTemperature {
     public void setTemperature(double temperature) {
         this.temperature = temperature;
     }
+
+    public void incrementTemperature(double degrees) {
+        this.temperature += degrees;
+    }
 }
+
+

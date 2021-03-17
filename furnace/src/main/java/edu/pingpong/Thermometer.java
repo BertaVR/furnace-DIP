@@ -1,6 +1,6 @@
 package edu.pingpong;
 
-public interface Thermometre {
+public interface Thermometer {
 
     public double read(RoomTemperature temperature);
 }
