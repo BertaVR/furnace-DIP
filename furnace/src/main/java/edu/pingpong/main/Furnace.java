@@ -1,4 +1,6 @@
-package edu.pingpong;
+package edu.pingpong.main;
+
+import edu.pingpong.*;
 
 public class Furnace {
     public static void main(String[] args) {
